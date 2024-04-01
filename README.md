@@ -3,7 +3,6 @@
 Significant revenue loss, as a result of customer churn, is an issue in the credit card industry. We offer a solution enabling these companies to leverage data analysis to predict potential customer churn in advance. Our predictive approach motivates companies incentivize customers likely to churn, thereby reducing the probability of customer departure and locking in revenue. 
 
 ## A header image
->>>>>>> origin/main
 This image can be anything you want, so long as it is professional and aligns with your project
 Ideal dimensions are 1280x640 pixels, but any image with landscape orientation (wider than it is tall) will work
 Image sourcing ideas to consider:
