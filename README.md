@@ -24,11 +24,18 @@ Dey, S. (2022, May 7). [Building Comprehensible Customer Churn Prediction Models
 What kind of model(s) did you use?
 How well did your final model perform, compared to the baseline?
 
-Our team started with the simplest model, Logistic Regression, to establish a base accuracy score. This binary classification model was necessary given the objective. During the feature selection process, our team incorporated Principal Component Analysis (PCA) for dimensionality reduction. This technique simplified our high-dimensional data into fewer 'principal components', enhancing model performance by minimizing overfitting.  
+Our team started with the simplest model, Logistic Regression, to establish a base accuracy score. This binary classification model was necessary given the objective. 
+
+During the feature selection process, our team incorporated Principal Component Analysis (PCA) for dimensionality reduction. This technique simplified our high-dimensional data into fewer 'principal components', enhancing model performance by minimizing overfitting.  
+
 We then explored the K-Nearest Neighbor model, capitalizing on its ability to classify outcomes based on proximity to selected features.  
+
 The Random Forest algorithm was useful in handling many variables, reducing overfitting, and identifying the most important features contributing to customer churn.
-We after trying the models above we decided move forward with the Decision Tree model as it has excellent interpretability in rule-based classification.   
+
+After trying the models above we decided move forward with the Decision Tree model as it has excellent interpretability in rule-based classification.  
+
 Our Team then used the K-Means algorithm, an unsupervised learning method, to segment customers into different groups based on their behavior or characteristics, thereby identifying patterns indicative of churn.
+
 
 ## Conclusion
 How would you recommend that your model be used?
