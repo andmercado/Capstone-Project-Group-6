@@ -18,7 +18,6 @@ References
 
 Dey, S. (2022, May 7). [Building Comprehensible Customer Churn Prediction Models](https://medium.com/swlh/building-comprehensible-customer-churn-prediction-models-ca61ecce529d). Medium.
 
-[Data Understanding]
 
 ## Modeling and Evaluation
 What kind of model(s) did you use?
