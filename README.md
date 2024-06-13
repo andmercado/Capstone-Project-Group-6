@@ -48,6 +48,4 @@ Our team would recommend that the model be used to mitigate customer churn by im
 
 
 ## Repository Navigation
-An explanation of the repository organization
-Links to the final notebook and presentation
-Reproduction instructions (or a link to them)
+Final Notebook Link: https://github.com/andmercado/Capstone-Project-Group-6/blob/main/final_notebook.ipynb
