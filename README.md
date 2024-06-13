@@ -15,10 +15,6 @@ This proposal aims to recognize the importance of retaining clientele by impleme
 To enable our predictive analytic models, we would require specific customer data. Using this data, we will be able to strategically plan and allocate resources to overcome potential challenges. The predictive modeling insights will guide changes to increase customer retention. This process may involve modifying current marketing strategies or enhancing customer service operations. However, with the correct approach and by leveraging the insights obtained from our predictive analytics, we are confident that any arising challenges can be effectively addressed, leading to improved customer retention and business growth.
 
 
-[Data Understanding] [Needs to be completed]
-- Where is Data sourced?
-- Interesting events that may have happened at that time? Think about year?
-
 Data Set from Kaggle: 
 
 https://www.kaggle.com/datasets/thedevastator/predicting-credit-card-customer-attrition-with-m
@@ -48,7 +44,8 @@ Our Team then used the K-Means algorithm, an unsupervised learning method, to se
 ## Conclusion
 How would you recommend that your model be used?
 
+Our team would recommend that the model be used to mitigate customer churn by implementing a sophisticated predicitive modeling approach that leverages customer data to identify at risk individuals and tailor retention strategies accordingly. By collecting and analyzing data, our model can pinpoint the key factors contributing to churn. Continuous monitoring and refinement of the model ensures it adapts to evolving customer behaviors, ultimately leading to improved rentention rates and sustained business growth.
+
+
 ## Repository Navigation
-An explanation of the repository organization
-Links to the final notebook and presentation
-Reproduction instructions (or a link to them)
+Final Notebook Link: https://github.com/andmercado/Capstone-Project-Group-6/blob/main/final_notebook.ipynb
