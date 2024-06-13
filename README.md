@@ -49,3 +49,5 @@ Our team would recommend that the model be used to mitigate customer churn by im
 
 ## Repository Navigation
 Final Notebook Link: https://github.com/andmercado/Capstone-Project-Group-6/blob/main/final_notebook.ipynb
+
+Final Presentation Link: https://github.com/andmercado/Capstone-Project-Group-6/blob/main/CAPSTONE%20PPT.pptx
