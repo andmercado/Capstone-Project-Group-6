@@ -15,7 +15,6 @@ This proposal aims to recognize the importance of retaining clientele by impleme
 To enable our predictive analytic models, we would require specific customer data. Using this data, we will be able to strategically plan and allocate resources to overcome potential challenges. The predictive modeling insights will guide changes to increase customer retention. This process may involve modifying current marketing strategies or enhancing customer service operations. However, with the correct approach and by leveraging the insights obtained from our predictive analytics, we are confident that any arising challenges can be effectively addressed, leading to improved customer retention and business growth.
 
 
-[Data Understanding] [Needs to be completed]
 - Where is Data sourced?
 - Interesting events that may have happened at that time? Think about year?
 
