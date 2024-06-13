@@ -44,6 +44,9 @@ Our Team then used the K-Means algorithm, an unsupervised learning method, to se
 ## Conclusion
 How would you recommend that your model be used?
 
+Our team would recommend that the model be used to mitigate customer churn by implementing a sophisticated predicitive modeling approach that leverages customer data to identify at risk individuals and tailor retention strategies accordingly. By collecting and analyzing data, our model can pinpoint the key factors contributing to churn. Continuous monitoring and refinement of the model ensures it adapts to evolving customer behaviors, ultimately leading to improved rentention rates and sustained business growth.
+
+
 ## Repository Navigation
 An explanation of the repository organization
 Links to the final notebook and presentation
