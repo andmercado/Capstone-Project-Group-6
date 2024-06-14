@@ -2,12 +2,13 @@
 
 ## LoyalLock: Predictive Modeling for Customer Segmentation and Churn Reduction
 
-Significant revenue loss, as a result of customer churn, is an issue in the credit card industry. We offer a solution enabling these companies to leverage data analysis to predict potential customer churn in advance. Our predictive approach motivates companies incentivize customers likely to churn, thereby reducing the probability of customer departure and locking in revenue. 
+Significant revenue losses due to customer churn are a critical issue in the credit card industry. This proposal offers a solution that enables companies to use data analysis to predict potential customer churn in advance. The predictive approach encourages companies to incentivize customers who are likely to churn, thereby reducing the probability of their departure and securing revenue. 
 
 ## Business Understanding and Data Understanding
 
 ### Business Understanding
-In the competitive realm of credit card companies, each company offers a wide range of incentives to obtain a customer and keep them loyal to their services. From offering a reward system that allows customers to use their rewards towards travel, card statements, or gift cards to offering a low percentage of interest rates on monthly statements. Customer retention is a crucial factor for sustaining revenue growth and fostering long-term clientele and profitability.
+
+In the competitive realm of credit card companies, each firm offers a wide range of incentives to attract and retain customers. These incentives include reward systems that allow customers to redeem rewards for travel, card statements, or gift cards, and offering low interest rates on balances. Customer retention is crucial for sustaining revenue growth and fostering long-term profitability.
 
 The key stakeholders include the credit card companies who seek to decrease customer churn, the customer service and marketing teams who may need to adjust their operations and strategies based on our insights, and the customers who will benefit from improved services and retention incentives.
 
@@ -44,26 +45,24 @@ Dey, S. (2022, May 7). [Building Comprehensible Customer Churn Prediction Models
 
 
 ## Modeling and Evaluation
-What kind of model(s) did you use?
-How well did your final model perform, compared to the baseline?
 
-Our team started with the simplest model, Logistic Regression, to establish a base accuracy score. This binary classification model was necessary given the objective. 
+Our team started with Logistic Regression to establish a baseline accuracy score for this binary classification task.
 
-During the feature selection process, our team incorporated Principal Component Analysis (PCA) for dimensionality reduction. This technique simplified our high-dimensional data into fewer 'principal components', enhancing model performance by minimizing overfitting.  
+During the feature selection process, we incorporated Principal Component Analysis (PCA) for dimensionality reduction, which simplified our high-dimensional data into fewer principal components, enhancing model performance by minimizing overfitting.
 
-We then explored the K-Nearest Neighbor model, capitalizing on its ability to classify outcomes based on proximity to selected features.  
+We explored the K-Nearest Neighbor model, utilizing its ability to classify outcomes based on feature proximity.
 
-The Random Forest algorithm was useful in handling many variables, reducing overfitting, and identifying the most important features contributing to customer churn.
+The Random Forest algorithm was employed for its capability to handle many variables, reduce overfitting, and identify the most critical features contributing to customer churn.
 
-After trying the models above we decided move forward with the Decision Tree model as it has excellent interpretability in rule-based classification.  
+After evaluating the above models, we decided to proceed with the Decision Tree model due to its excellent interpretability in rule-based classification.
 
-Our Team then used the K-Means algorithm, an unsupervised learning method, to segment customers into different groups based on their behavior or characteristics, thereby identifying patterns indicative of churn.
+We also used the K-Means algorithm, an unsupervised learning method, to segment customers into different groups based on their behaviors or characteristics, identifying patterns indicative of churn.
 
 
 ## Conclusion
 How would you recommend that your model be used?
 
-Our team would recommend that the model be used to mitigate customer churn by implementing a sophisticated predicitive modeling approach that leverages customer data to identify at risk individuals and tailor retention strategies accordingly. By collecting and analyzing data, our model can pinpoint the key factors contributing to churn. Continuous monitoring and refinement of the model ensures it adapts to evolving customer behaviors, ultimately leading to improved rentention rates, customer loyalty, and sustained business growth.
+Our team recommends using the model to mitigate customer churn by implementing a sophisticated predictive modeling approach that leverages customer data to identify individuals at risk and tailor retention strategies accordingly. By collecting and analyzing data, our model can pinpoint the key factors contributing to churn. Continuous monitoring and refinement of the model ensures it adapts to evolving customer behaviors, ultimately leading to improved retention rates, customer loyalty, and sustained business growth.
 
 
 ## Repository Navigation
