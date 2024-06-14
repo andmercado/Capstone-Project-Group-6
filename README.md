@@ -66,6 +66,10 @@ The Random Forest algorithm was employed for its capability to handle many varia
 
 After evaluating the above models, we decided to proceed with the Decision Tree model due to its excellent interpretability in rule-based classification.
 
+After the team determined that the Decision Tree was the model we would proceed with, it proceeds to perform hyperparameter tuning on the Decision Tree model, searching for best parameter values to further improve our metrics.
+
+Finally, the fully trained and tuned Decision Tree model ended with an accuracy of about 84% and a precision of about 94%. This is significantly better than the baseline model with PCA, which had an accuracy of 63%. Additionally, the final model's results may be surprising as they are not the best metrics observed while testing it; however, this is because the early models were overfitting significantly, whereas this final model is not.
+
 ## Conclusion
 
 The team recommends using the model to mitigate customer churn by implementing a sophisticated predictive modeling approach that leverages customer data to identify individuals at risk and tailor retention strategies accordingly. By collecting and analyzing data, the model can pinpoint the key factors contributing to churn. Continuous monitoring and refinement of the model ensures it adapts to evolving customer behaviors, ultimately leading to improved retention rates, customer loyalty, and sustained business growth.
