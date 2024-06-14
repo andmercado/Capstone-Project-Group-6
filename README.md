@@ -18,7 +18,7 @@ To enable our predictive analytic models, we would require specific customer dat
 
 ### Data Understanding
 
-The dataset from Kaggle is designed to help predict when customers might stop using their credit cards. This dataset includes information on how customers spend, who they are, how they interact with the company, and details about their accounts. This data is great for spotting customers who might leave and helping us figure out how to keep them. We have data on thousands of customers, which gives us a lot of information to work with. We look at average spending, types of customers, and how often they engage with services. The dataset includes a mix of numerical and categorical data, which are handled differently to ensure optimal processing by predictive models. See below:
+The dataset from Kaggle is designed to help predict when customers might stop using their credit cards. This dataset includes information on how customers spend, who they are, how they interact with the company, and details about their accounts. This data is great for spotting customers who might leave and helping us figure out how to keep them. We have data on thousands of customers, which gives us a lot of information to work with. We look at average spending, types of customers, and how often they engage with services. The data was collected throughout the year 2020, and the study was published on December 15, 2020. At that time, significant external financial factors were in effect, notably the COVID stimulus checks distributed by the US government to consumers. While we do not believe these factors directly affected the data itself, they could explain the noticeably fewer instances of customers leaving their companies found in this dataset. It is likely that with financial concerns alleviated by the stimulus checks, customers were less inclined to switch from their current credit card companies. The dataset includes a mix of numerical and categorical data, which are handled differently to ensure optimal processing by predictive models. See below:
 
 **Transactional Data**: Shows how customers are spending their money.
 
@@ -39,6 +39,8 @@ One-hot Encoding: For categorical variables stored as strings, one-hot encoding 
 Standardization: Numerical data such as integers and floats are directly usable in models but come with the challenge of varying scales. To address this, all numerical features are standardized. Standardization adjusts the data to have a mean of zero and a standard deviation of one, ensuring that no single feature disproportionately influences the model due to its scale.
 
 **Use of SMOTE for Imbalanced Data:** The Synthetic Minority Over-sampling Technique (SMOTE) is used to address the imbalance in the dataset, particularly when the number of customers who churn is significantly lower compared to those who do not. SMOTE generates synthetic samples from the minority class (churned customers) to equalize the influence of both classes during model training. This approach helps in improving the model's sensitivity to churn by providing a balanced perspective, which is crucial for accurate prediction and classification.
+
+
 
 Data Set from Kaggle: 
 
