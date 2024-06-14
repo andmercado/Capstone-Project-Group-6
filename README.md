@@ -34,11 +34,12 @@ We have data on thousands of customers, which gives us a lot of information to w
 
 This data is great for spotting customers who might leave and helping us figure out how to keep them. However, there are some issues with missing information, how current the data is, and if it applies to everyone everywhere.
 
-The dataset comprises a mix of numerical and categorical data, which are handled differently to ensure optimal processing by predictive models:
+
+**The dataset comprises a mix of numerical and categorical data, which are handled differently to ensure optimal processing by predictive models:**
 
 **Handling Categorical Data (Strings)**:
 
-One-hot Encoding: For categorical variables stored as strings, one-hot encoding is implemented. This method converts categorical values into a binary vector format. Each category is represented by a vector where only the relevant category is marked with a '1', and all others are '0'. This transformation allows the model to process categorical data as numerical inputs without any inherent ordinal relationship between categories.
+One-hot Encoding: For categorical variables stored as strings, one-hot encoding is implemented. This method converts categorical values into a binary vector format. Each category is represented by a vector where only the relevant category is marked with a '1', and all others are '0'. This transformation allows the model to process categorical data as numerical inputs.
 
 **Handling Numerical Data (Integers and Floats)**:
 
