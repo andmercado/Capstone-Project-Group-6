@@ -60,7 +60,6 @@ We also used the K-Means algorithm, an unsupervised learning method, to segment 
 
 
 ## Conclusion
-How would you recommend that your model be used?
 
 Our team recommends using the model to mitigate customer churn by implementing a sophisticated predictive modeling approach that leverages customer data to identify individuals at risk and tailor retention strategies accordingly. By collecting and analyzing data, our model can pinpoint the key factors contributing to churn. Continuous monitoring and refinement of the model ensures it adapts to evolving customer behaviors, ultimately leading to improved retention rates, customer loyalty, and sustained business growth.
 
