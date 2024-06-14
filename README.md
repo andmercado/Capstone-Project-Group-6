@@ -18,7 +18,7 @@ To enable our predictive analytic models, we would require specific customer dat
 
 ### Data Understanding
 
-The dataset from Kaggle is designed to help predict when customers might stop using their credit cards. This dataset includes information on how customers spend, who they are, how they interact with the company, and details about their accounts. 
+The dataset from Kaggle is designed to help predict when customers might stop using their credit cards. This dataset includes information on how customers spend, who they are, how they interact with the company, and details about their accounts. This data is great for spotting customers who might leave and helping us figure out how to keep them.
 
 **Transactional Data**: Shows how customers are spending their money.
 
@@ -32,10 +32,10 @@ We have data on thousands of customers, which gives us a lot of information to w
 
 **Account Details:** These help us understand how deep and strong the relationship with the customer is.
 
-This data is great for spotting customers who might leave and helping us figure out how to keep them. However, there are some issues with missing information, how current the data is, and if it applies to everyone everywhere.
 
 
-**The dataset comprises a mix of numerical and categorical data, which are handled differently to ensure optimal processing by predictive models:**
+
+****The dataset includes a mix of numerical and categorical data, which are handled differently to ensure optimal processing by predictive models:****
 
 **Handling Categorical Data (Strings)**:
 
