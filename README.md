@@ -6,6 +6,7 @@ Significant revenue loss, as a result of customer churn, is an issue in the cred
 
 ## Business Understanding and Data Understanding
 
+### Business Understanding
 In the competitive realm of credit card companies, each company offers a wide range of incentives to obtain a customer and keep them loyal to their services. From offering a reward system that allows customers to use their rewards towards travel, card statements, or gift cards to offering a low percentage of interest rates on monthly statements. Customer retention is a crucial factor for sustaining revenue growth and fostering long-term clientele and profitability.
 
 The key stakeholders include the credit card companies who seek to decrease customer churn, the customer service and marketing teams who may need to adjust their operations and strategies based on our insights, and the customers who will benefit from improved services and retention incentives.
@@ -14,6 +15,24 @@ This proposal aims to recognize the importance of retaining clientele by impleme
 
 To enable our predictive analytic models, we would require specific customer data. Using this data, we will be able to strategically plan and allocate resources to overcome potential challenges. The predictive modeling insights will guide changes to increase customer retention. This process may involve modifying current marketing strategies or enhancing customer service operations. However, with the correct approach and by leveraging the insights obtained from our predictive analytics, we are confident that any arising challenges can be effectively addressed, leading to improved customer retention and business growth.
 
+### Data Understanding
+
+The dataset from Kaggle is designed to help predict when customers might stop using their credit cards. This dataset includes information on how customers spend, who they are, how they interact with the company, and details about their accounts. 
+
+**Transactional Data**: Shows how customers are spending their money.
+
+**Demographic Data:** Information like age, gender, income, and job status.
+
+**Account Information:** Details like how long they’ve had their account and what type of card they use.
+
+We have data on thousands of customers, which gives us a lot of information to work with. We look at average spending, types of customers, and how often they engage with services.
+
+**Spending and Engagement**: These tell us a lot about how happy customers are and if they might leave.
+
+**Account Details:** These help us understand how deep and strong the relationship with the customer is.
+
+
+This data is great for spotting customers who might leave and helping us figure out how to keep them. However, there are some issues with missing information, how current the data is, and if it applies to everyone everywhere. Although there are some issues with missing information, this dataset is a strong starting point for building models that predict customer churn, helping us keep customers happy and connected. We need to handle the data carefully and keep it up to date to make sure our predictions are as accurate as possible.
 
 Data Set from Kaggle: 
 
