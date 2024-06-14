@@ -32,8 +32,17 @@ We have data on thousands of customers, which gives us a lot of information to w
 
 **Account Details:** These help us understand how deep and strong the relationship with the customer is.
 
+This data is great for spotting customers who might leave and helping us figure out how to keep them. However, there are some issues with missing information, how current the data is, and if it applies to everyone everywhere.
 
-This data is great for spotting customers who might leave and helping us figure out how to keep them. However, there are some issues with missing information, how current the data is, and if it applies to everyone everywhere. Although there are some issues with missing information, this dataset is a strong starting point for building models that predict customer churn, helping us keep customers happy and connected. We need to handle the data carefully and keep it up to date to make sure our predictions are as accurate as possible.
+The dataset comprises a mix of numerical and categorical data, which are handled differently to ensure optimal processing by predictive models:
+
+**Handling Categorical Data (Strings)**:
+
+One-hot Encoding: For categorical variables stored as strings, one-hot encoding is implemented. This method converts categorical values into a binary vector format. Each category is represented by a vector where only the relevant category is marked with a '1', and all others are '0'. This transformation allows the model to process categorical data as numerical inputs without any inherent ordinal relationship between categories.
+
+**Handling Numerical Data (Integers and Floats)**:
+
+Standardization: Numerical data such as integers and floats are directly usable in models but come with the challenge of varying scales. To address this, all numerical features are standardized. Standardization adjusts the data to have a mean of zero and a standard deviation of one, ensuring that no single feature disproportionately influences the model due to its scale.
 
 **Use of SMOTE for Imbalanced Data:** The Synthetic Minority Over-sampling Technique (SMOTE) is used to address the imbalance in the dataset, particularly when the number of customers who churn is significantly lower compared to those who do not. SMOTE generates synthetic samples from the minority class (churned customers) to equalize the influence of both classes during model training. This approach helps in improving the model's sensitivity to churn by providing a balanced perspective, which is crucial for accurate prediction and classification.
 
@@ -41,10 +50,14 @@ Data Set from Kaggle:
 
 https://www.kaggle.com/datasets/thedevastator/predicting-credit-card-customer-attrition-with-m
 
+Original Owner of Data Set:
+
+https://zenodo.org/records/4322342#.Y8OsBdJBwUE
+
 References
 
 Dey, S. (2022, May 7). [Building Comprehensible Customer Churn Prediction Models](https://medium.com/swlh/building-comprehensible-customer-churn-prediction-models-ca61ecce529d). Medium.
-
+Zenodo. (2020). [Prediction of Churning Credit Card Customers]. Retrieved from https://zenodo.org/records/4322342#.Y8OsBdJBwUE
 
 ## Modeling and Evaluation
 
