@@ -35,6 +35,8 @@ We have data on thousands of customers, which gives us a lot of information to w
 
 This data is great for spotting customers who might leave and helping us figure out how to keep them. However, there are some issues with missing information, how current the data is, and if it applies to everyone everywhere. Although there are some issues with missing information, this dataset is a strong starting point for building models that predict customer churn, helping us keep customers happy and connected. We need to handle the data carefully and keep it up to date to make sure our predictions are as accurate as possible.
 
+**Use of SMOTE for Imbalanced Data:** The Synthetic Minority Over-sampling Technique (SMOTE) is used to address the imbalance in the dataset, particularly when the number of customers who churn is significantly lower compared to those who do not. SMOTE generates synthetic samples from the minority class (churned customers) to equalize the influence of both classes during model training. This approach helps in improving the model's sensitivity to churn by providing a balanced perspective, which is crucial for accurate prediction and classification.
+
 Data Set from Kaggle: 
 
 https://www.kaggle.com/datasets/thedevastator/predicting-credit-card-customer-attrition-with-m
