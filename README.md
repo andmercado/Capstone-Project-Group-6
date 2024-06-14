@@ -57,6 +57,7 @@ https://zenodo.org/records/4322342#.Y8OsBdJBwUE
 References
 
 Dey, S. (2022, May 7). [Building Comprehensible Customer Churn Prediction Models](https://medium.com/swlh/building-comprehensible-customer-churn-prediction-models-ca61ecce529d). Medium.
+
 Zenodo. (2020). [Prediction of Churning Credit Card Customers]. Retrieved from https://zenodo.org/records/4322342#.Y8OsBdJBwUE
 
 ## Modeling and Evaluation
