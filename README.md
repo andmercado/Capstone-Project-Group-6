@@ -63,22 +63,19 @@ Zenodo. (2020). [Prediction of Churning Credit Card Customers]. Retrieved from h
 
 ## Modeling and Evaluation
 
-Our team started with Logistic Regression to establish a baseline accuracy score for this binary classification task.
+The team started with Logistic Regression to establish a baseline accuracy score for this binary classification task.
 
-During the feature selection process, we incorporated Principal Component Analysis (PCA) for dimensionality reduction, which simplified our high-dimensional data into fewer principal components, enhancing model performance by minimizing overfitting.
+During the feature selection process, we incorporated Principal Component Analysis (PCA) for dimensionality reduction, which simplified the high-dimensional data into fewer principal components, enhancing model performance by minimizing overfitting.
 
-We explored the K-Nearest Neighbor model, utilizing its ability to classify outcomes based on feature proximity.
+Then, was explored K-Nearest Neighbor model, utilizing its ability to classify outcomes based on feature proximity.
 
 The Random Forest algorithm was employed for its capability to handle many variables, reduce overfitting, and identify the most critical features contributing to customer churn.
 
 After evaluating the above models, we decided to proceed with the Decision Tree model due to its excellent interpretability in rule-based classification.
 
-We also used the K-Means algorithm, an unsupervised learning method, to segment customers into different groups based on their behaviors or characteristics, identifying patterns indicative of churn.
-
-
 ## Conclusion
 
-Our team recommends using the model to mitigate customer churn by implementing a sophisticated predictive modeling approach that leverages customer data to identify individuals at risk and tailor retention strategies accordingly. By collecting and analyzing data, our model can pinpoint the key factors contributing to churn. Continuous monitoring and refinement of the model ensures it adapts to evolving customer behaviors, ultimately leading to improved retention rates, customer loyalty, and sustained business growth.
+The team recommends using the model to mitigate customer churn by implementing a sophisticated predictive modeling approach that leverages customer data to identify individuals at risk and tailor retention strategies accordingly. By collecting and analyzing data, the model can pinpoint the key factors contributing to churn. Continuous monitoring and refinement of the model ensures it adapts to evolving customer behaviors, ultimately leading to improved retention rates, customer loyalty, and sustained business growth.
 
 
 ## Repository Navigation
